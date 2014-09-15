@@ -78,6 +78,19 @@ public class Domashno_zad2 {
 			sorting();
 		}
 		}
+	public static void premahvane() {
+
+		for (int i = 0; i < a.length; i++) {
+
+			if (a[i] != '_') {
+				System.out.print(a[i]);
+			} else {
+				break;
+			}
+		}
+
 	}
+}
+	
 
 
